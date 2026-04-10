@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Loading Screen</title>
-<link rel="stylesheet" href="indexCSS.css">
+  <meta charset="UTF-8">
+  <title>Delightful Loading Screen</title>
+  <link rel="stylesheet" href="indexCSS.css">
 </head>
-<body>
-    <section class="loading">
-        For new sidebar colors, click your workspace name, then Preferences > Sidebar > Theme
-        <span class="loading__author">– Your friends at Slack</span>
-        <span class="loading__anim"></span>
-    </section>
+<body class="light">
+  <section class="loading">
+    For new sidebar colors, click your workspace name, then Preferences &gt; Sidebar &gt; Theme
+    <span class="loading__author">– Your friends at Slack</span>
+    <span class="loading__anim"></span>
+  </section>
+
+  <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
